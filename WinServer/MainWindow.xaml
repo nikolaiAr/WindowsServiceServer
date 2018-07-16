@@ -1,0 +1,29 @@
+﻿<Window x:Class="WinServer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="404" Width="510" Closing="Window_Closing">
+    <Grid Margin="10,10,2,-3" Width="490" HorizontalAlignment="Center" RenderTransformOrigin="0.502,0.441">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform ScaleY="1" ScaleX="1"/>
+                <SkewTransform AngleY="0" AngleX="0"/>
+                <RotateTransform Angle="0"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textIP" HorizontalAlignment="Left" Height="23" Margin="120,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textPort" HorizontalAlignment="Left" Height="23" Margin="50,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="2"/>
+        <Button x:Name="startServer" Content="запуск" HorizontalAlignment="Left" Margin="75,85,0,0" VerticalAlignment="Top" Width="340" Click="startServer_Click" Grid.ColumnSpan="3" Height="22"/>
+        <Button x:Name="stopServer" Content="завершить подключение" HorizontalAlignment="Left" Margin="75,129,0,0" VerticalAlignment="Top" Width="340" Click="stopServer_Click" Grid.ColumnSpan="3" Height="22"/>
+        <Label Grid.ColumnSpan="2" Content="IP:" HorizontalAlignment="Left" Margin="75,34,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.261,0.462" Height="26" Width="23"/>
+        <Label Content="порт:" HorizontalAlignment="Left" Height="27" Margin="1,37,0,0" VerticalAlignment="Top" Grid.Column="2" Width="39"/>
+            <TextBox x:Name="text" Grid.ColumnSpan="3" Margin="75,163,75,20" TextWrapping="Wrap" ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.CanContentScroll="True"
+                 MaxHeight="Infinity" MinHeight="180" RenderTransformOrigin="0.503,-0.1" AcceptsReturn="True" />
+
+    </Grid>
+</Window>

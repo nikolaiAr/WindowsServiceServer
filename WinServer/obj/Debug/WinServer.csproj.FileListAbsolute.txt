@@ -1,0 +1,13 @@
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\bin\Debug\WinServer.exe.config
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\bin\Debug\WinServer.exe
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\bin\Debug\WinServer.pdb
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.csprojResolveAssemblyReference.cache
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\MainWindow.baml
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\MainWindow.g.cs
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\App.g.cs
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer_MarkupCompile.cache
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.g.resources
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.Properties.Resources.resources
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.csproj.GenerateResource.Cache
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.exe
+c:\users\n.aronov\documents\visual studio 2013\Projects\WinServer\WinServer\obj\Debug\WinServer.pdb
